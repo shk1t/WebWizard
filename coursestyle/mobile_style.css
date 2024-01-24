@@ -1,0 +1,567 @@
+
+@media (min-width: 769px) {
+.header_menu{
+    display: none;
+}
+}
+    
+@media (max-width: 768px) {
+    /* HEADRER */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header_inner{
+    height: 30vw;
+}
+
+/* HEADER INNER */
+.logo{
+    width:  20vw;
+    height: 20vw;
+    min-width:  20px;
+    min-height: 20px;
+}
+.breadcrumbs{
+    display: none;
+}
+.logIn{
+    display: none;
+}
+.header_menu{
+    width:  8vw;
+    height: 8vw;
+
+    background-image: url('/resouces/menu.png');
+    background-size: cover;
+}
+/* END_HEADRER */
+
+/* DOC-MAIN */
+.doc_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* INTRO-CARD */
+.intro_card{
+    background-color: #191E20;
+    
+    height: auto;
+    width: 95%;
+    
+    margin-bottom: 7vw;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intro_card_img{
+    height: 60vw;
+    width:95%;
+
+    margin: 5vw 0;
+    overflow: hidden;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+}
+
+.intro_card_about_cource{
+    height: 40%;
+    width: 95%;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 1vw;
+}
+.duration{
+    background-color: #2B3031;
+
+    width: 30%;
+    padding: 6px 12px;
+    border-radius: 15px;
+
+    font-size: 3vw;
+    text-align: center;
+}
+
+.about_cource_text{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about_cource_text_main{
+    font-size: 8vw;
+    line-height: 8vw;
+    width: 70%;
+
+    margin: 5vw 0 2vw 0;
+}
+.about_cource_text_secondary{
+    font-size: 3vw;
+    line-height: 3.5vw;
+
+    margin: 3vw 0;
+}
+.butt_signup{
+    width: 96%;
+    height: 10vw;
+    border-radius: 3vw;
+    border: none;
+    
+    background-color: #C7F450;
+    font-family: inherit;
+    font-size: 5vw;
+
+    margin: 2.5vw 0 3vw 0;
+
+}
+/* END_INTRO-CARD */
+
+
+/* INTRO_CONTENT */
+.intro_content{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro_content_about_cource{
+    height: auto;
+    width: 95%;
+    margin: 1.5vw 0;
+
+    font-size: 4vw;
+}
+.intro_content_about_cource_text_main{
+    color: #5E7178; 
+    font-size: 4vw;
+
+}
+.intro_content_about_cource_text_secondary{
+    font-size: 5vw;
+    line-height: 6.3vw;
+
+    margin: 2vw 0;
+}
+/* END_INTRO_CONTENT */
+
+
+/* CONTENT_LIST */
+.intro_content_list{
+    height: auto;
+    
+    font-size: 4.2vw;
+    line-height: 6vw;
+
+    margin: 5vw 0;
+}
+.intro_content_list ul{
+    display: block;
+
+    list-style-type: none;
+}
+.intro_content_list li{
+    border-bottom:  1px solid #525354;
+    padding: 2vw 0;
+
+    display: flex;
+}
+.circle{
+    display: none;
+}
+.circle-mobile{
+    display: block;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 3vw;
+}
+.list_text{
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+/* END_CONTENT_LIST */
+
+
+/* CONTENT_FOOTER */
+.intro_content_footer{
+    width: 95%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intro_content_footer_text_main{
+    font-size: 5vw; 
+    color: #7E929A;
+    margin: 2vw 0;
+}
+.intro_content_footer_text_secondary{
+    font-size: 7.5vw;
+    width: 70%;
+}
+.intro_content_footer_cards{
+    flex-direction: column;
+    align-items: center;
+    justify-content: none;
+
+    margin: 5vw 0;
+}
+.intro_content_footer_card{
+    background-color: #22282B;
+
+    width: 95%;
+    height: auto;
+    margin: 2vw 0;
+    border-radius: 4vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intro_content_footer_card_text{
+    width: 70%;
+    font-size: 4vw;
+    padding: 4vw 0;
+    text-align: left;
+}
+/* END_CONTENT_FOOTER */
+/* END_INTRO_CONTENT */
+
+
+/* SECOND_CONTENT */
+.second_content{
+    width: 100%;
+    height: auto;
+    border-radius: 4vw;
+}
+
+/* NFT_CONTAINER */
+.second_content_nft_container{
+    background-color: #22282B;
+
+    width: 95%;
+    height: 110vw;
+    margin: 5vw 0;
+    border-radius: 3vw;
+
+    overflow: hidden;
+    position: static;
+}
+.nft_board{
+    height: 70%;
+    width: calc(65vw*9);
+}
+.nft_board_transition{
+    transition: left 3.5s linear ;
+}
+.nft{
+    height: 65vw;
+    width:  65vw;
+    margin-left: 4vw;
+}
+.second_content_nft_container_text{
+    display: none;
+}
+.second_content_nft_container_text_mobile{
+    display: block;
+    position: relative;
+    left: 5%;
+
+    width: 90%;
+    height: 30vw;
+    background-color: rgba(230, 230, 230, 0.95);
+    border-radius: 20px;
+
+    padding: 2vw 3vw;
+}
+.second_content_nft_container_text_main{
+    font-size: 6vw;
+    
+}
+.second_content_nft_container_text_secondary{
+    font-size: 3.5vw;
+    margin-top: 2vw;
+}
+/* END_NFT_CONTAINER */
+
+
+
+/* CONTENT_PAYMENT */
+.second_content_payment{
+    width: 100%;
+    height: auto;
+    margin: 5vw 0 5vw 0;
+    border-radius: 5vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.second_content_payment_cards{
+    height: auto;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+}
+.second_content_payment_text_main{
+    font-size: 7vw;
+    width: 70%;
+    margin: 4vw 0;
+}
+
+/* FIRST_PAYMENT */
+.payment_card_first{
+    width: 95%;
+    height: auto;
+    border-radius: 5vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tinkoff_board{
+    background-color: #FFF;
+    font-size: 5vw;
+
+    width:  95%;
+    height: auto;
+    margin: 3vw 0 7vw 0;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tinkoff_board_text{
+    width: 90%; 
+    margin-left: 1.5vw;
+}
+.tinkoff_board_text_price{
+    font-size: 8vw;
+}
+.tinkoff_img{
+    width:  17vw;
+    height: 17vw;
+    margin: 5vw 0;
+}
+.tinkoff_board_text_price_old{
+    font-size: 5vw;
+    position: absolute;
+    top:45%;
+    right: 10%;
+
+}
+.sale_tinkoff{
+    position: absolute; 
+    right: 10%; 
+    top: 10%;
+
+    background-color: #2467E0;
+    color: #FFF;
+    padding: 2vw 3vw;
+    border-radius: 3.5vw;
+}
+
+
+.payment_card_advantage{
+    color: #7E929A;
+    width: 85%;
+    margin-bottom: 8vw;
+}
+.payment_card_advantage_text_main{
+    font-size: 6vw; 
+    margin: 3vw 0;
+}
+.payment_card_advantage_text_secondary{
+    font-size: 8vw; 
+    margin: 2vw 0;
+}
+.payment_card_advantage_line{
+    font-size: 4vw;
+    padding: 2vw 0 2vw 2vw;
+}
+/* END_FIRST_PAYMENT */
+
+
+.payment_card_second{
+    background-color: #FFF;
+
+    width: 95%;
+    height: auto;
+    border-radius: 5vw;
+    margin: 5vw 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+.payment_card_second_start{
+    width: 60%;
+    margin: 5vw;
+    padding: 3vw  1vw;
+    border-radius: 5vw;
+
+    background-color: #EEF1F2;
+    font-size: 5vw;
+
+    position: relative;
+    right: 15%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.payment_card_second_text{
+    width: 90%;
+    margin: 1vw;
+
+    font-size: 8vw;
+    line-height: 8.5vw;
+}
+
+.payment_card_second_form{
+    width: 95%;
+    margin-top: 8vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.payment_card_second_form_input{
+    width: 95%;
+    height: 18vw;
+    margin: 2vw;
+    padding: 4vw 5vw;
+
+    font-size: 6vw;
+
+    border-radius: 4vw;
+}
+.payment_card_second_form_button{
+    width: 95%;
+    height: 18vw;
+    border-radius: 4vw;
+    margin: 2vw;
+
+    font-size: 6vw;
+    font-weight: 300;
+}
+.payment_card_second_inputs_promo{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 95%;
+    margin: 3vw 0 6vw 0;
+}
+/* END_CONTENT_PAYMENT */
+
+
+
+
+/* FAQ_CONTENT */
+.faq_content{
+    width: 95%;
+    height: auto;
+    margin: 5vw 0;
+}
+.faq_content_text_main{
+    font-size: 8vw; 
+    margin: 6vw 0;
+}
+.faq_content_list{
+    width: 95%;
+
+    font-size: 6vw;
+}
+.faq_content_list li{
+    border-top: 1px solid #22282B;
+    border-bottom: 1px solid #22282B;
+
+    padding: 6vw 2vw;
+}
+.faq_content_list_line_second{
+    width: 100%;    
+    padding-top: 4vw;
+    font-size: 6vw;
+}
+/* END_FAQ_CONTENT */
+
+/* FOOTER */
+.footer{
+    width: 100%;
+    height: 200vw;
+}
+.first_footer{
+    width: 85%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 5%;
+}
+.first_footer_list_page{
+    font-size: 5vw;
+    line-height: 7vw;
+    font-weight: 300;
+    padding: 2vw 0 0 1.3vw;
+
+    position: static;
+}
+
+.second_footer{
+    width: 85%;
+    position: relative;
+    top: 50%;
+    font-size: 0.8vw;
+
+    margin: 10vw 1.3vw;
+}
+.logo_mobile{
+    width:  25vw;
+    height: 25vw;
+    min-width:  30px;
+    min-height: 30px;
+}
+.second_footer_social{
+    font-size: 4vw;
+    line-height: 6vw;
+    margin-left: 0;
+}
+.second_footer_social li{
+    font-weight: 400;
+    text-decoration: underline;
+}
+.second_footer_social li:hover, .first_footer_list_page li:hover, .second_footer_to_up:hover{
+    transition: color .3s;
+    cursor: pointer;
+    color: #c4c4c4;
+}
+.second_footer_year{
+    font-size: 4vw;
+    position: relative;
+    right: 10%;
+}
+.second_footer_to_up{
+    display: none;
+}
+/* END_FOOTER */
+
+}
