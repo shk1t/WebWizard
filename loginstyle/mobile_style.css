@@ -1,0 +1,64 @@
+@media (max-width: 768px) {
+.logo{
+    width:  33vw;
+    height: 33vw;
+
+    margin: 1vw;
+}
+.main_form{
+    width: 95%;
+    height: 80%;
+    
+    border: .7vw solid #FFF;
+    border-radius: 7vw;
+}
+.back_icon{
+    display: none;
+}
+.main_form_text{
+    width: 70%;
+    font-size: 5.5vw;
+    text-align: center;
+
+    margin: 7vw 0;
+}
+.main_form_choose_buttons{
+    height: 13%;
+    width: 90%;
+    margin: 4vw 0;
+    border-radius: 5vw;
+}
+.choose_board{
+    border-radius: 5vw;
+}
+.main_form input{
+    height: 13%;
+    width: 90%;
+    
+    border: 2px solid #FFF;
+    border-radius: 5vw;
+
+    padding-left: 5vw;
+    margin: 1.5vw 0;
+
+    font-size: 5.5vw;
+}
+
+.main_form button{
+    height: 10%;
+    width: 40%;
+
+    background-color: rgba(241, 242, 245, 0.4);
+    color: #eeeeee;
+
+    border: 2px solid #FFF;
+    border-radius: 5vw;
+    margin: 3vw 0;
+
+    font-size: 5.5vw;
+}
+.main_form button:hover{
+    cursor: pointer;
+}
+
+}

@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("resouces/login_page_img.png");
+  background-size: cover;
+
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Inter", sans-serif;
+  color: #eeeeee;
+}
+
+.logo {
+  background-image: url("resouces/logo_img.png");
+  background-size: cover;
+
+  width: 13vw;
+  height: 13vw;
+
+  margin: 1vw;
+}
+.main_form {
+  width: 22%;
+  height: 63%;
+  margin-bottom: 4vw;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  border: 1px solid #fff;
+  border-radius: 1.4vw;
+  background-color: #ffffff3d;
+
+  position: relative;
+}
+.back_icon {
+  height: auto;
+  margin: 1vw;
+  margin-bottom: 0.5vw;
+
+  position: relative;
+  right: 40%;
+  cursor: pointer;
+}
+.main_form_text {
+  width: 70%;
+  font-size: 1.5vw;
+  text-align: center;
+
+  margin-bottom: 1vw;
+}
+.main_form_choose_buttons {
+  height: 10%;
+  width: 85%;
+  margin: 0.5vw 0;
+
+  background-color: #ffffff0a;
+  border: 2px solid #fff;
+  border-radius: 0.8vw;
+
+  position: relative;
+
+  display: flex;
+}
+.choose_board {
+  background-color: rgba(241, 242, 245, 0.4);
+  width: 50%;
+  height: 100%;
+  border-radius: 0.7vw;
+
+  position: absolute;
+
+  transition: left 0.7s ease;
+}
+.choose_board:hover {
+  cursor: pointer;
+}
+.choose_button {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_form input {
+  height: 10%;
+  width: 85%;
+
+  background-color: #ffffff0a;
+  color: #eeeeee;
+
+  border: 2px solid #fff;
+  border-radius: 0.8vw;
+
+  padding: 1vw;
+  margin: 0.5vw 0;
+
+  font-size: 1vw;
+}
+.main_form input::placeholder {
+  color: #eeeeee;
+}
+.main_form input:focus {
+  outline: 0;
+  border: 3px solid #fff;
+}
+
+.main_form button {
+  height: 10%;
+  width: 40%;
+
+  background-color: rgba(241, 242, 245, 0.4);
+  color: #eeeeee;
+
+  border: 2px solid #fff;
+  border-radius: 0.8vw;
+  margin: 0.5vw 0;
+
+  font-size: 1vw;
+}
+.main_form button:hover {
+  cursor: pointer;
+}
