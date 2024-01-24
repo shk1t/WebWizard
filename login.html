@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Страница входа</title>
+    <link rel="stylesheet" href="loginstyle/style.css" />
+    <link rel="stylesheet" href="loginstyle/mobile_style.css" />
+  </head>
+  <body>
+    <div class="logo"></div>
+    <form class="main_form">
+      <div class="back_icon">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="2vw"
+          height="2vw"
+          viewBox="0 0 21 14"
+          fill="">
+          <a href="index.html">
+            <path
+              d="M1.40726 8.05806C0.822586 7.47246 0.822576 6.52766 1.40726 5.94216C3.21869 4.12784 6.75202 0.589028 7.04097 0.300068C7.43097 -0.0899316 8.07097 -0.0899316 8.46097 0.300068C8.85097 0.690068 8.85097 1.32007 8.46097 1.71007L5.74426 4.42678C5.20987 4.96117 4.6175 5.43236 3.97676 5.83316L3.63409 6.04746L3.84216 6.25406C4.57591 6.08546 5.32714 6.00006 6.08158 6.00006H20.0035C20.5558 6.00006 21.0035 6.44776 21.0035 7.00006C21.0035 7.55236 20.5558 8.00006 20.0035 8.00006H6.08158C5.32714 8.00006 4.57591 7.91466 3.84216 7.74606L3.63409 7.95266L3.97676 8.16696C4.6175 8.56776 5.20987 9.03896 5.74426 9.57336L8.46097 12.2901C8.85097 12.6801 8.85097 13.3101 8.46097 13.7001C8.07097 14.0901 7.43097 14.0901 7.04097 13.7001C6.75202 13.4111 3.21869 9.87226 1.40726 8.05806Z"
+              fill="#eeeeee" />
+          </a>
+        </svg>
+      </div>
+      <div class="main_form_text">
+        Войдите в свою учетную запись или зарегистрируйтесь
+      </div>
+      <div class="main_form_choose_buttons">
+        <div class="choose_board" style="left: 0%"></div>
+        <div class="choose_button">Почта</div>
+        <div class="choose_button">Телефон</div>
+      </div>
+      <input id="input" type="email" placeholder="Почта или телефон" />
+      <input type="password" placeholder="Введите пароль" />
+      <button>Log in</button>
+      <button style="width: 55%">Sign up</button>
+    </form>
+
+    <script>
+      document
+        .querySelector(".choose_board")
+        .addEventListener("click", function (e) {
+          const input = document.querySelector("#input");
+          if (this.style.left == "0%") {
+            this.style.left = "50%";
+            input.placeholder = "Телефон";
+          } else {
+            this.style.left = "0%";
+            input.placeholder = "Почта";
+          }
+        });
+    </script>
+  </body>
+</html>
